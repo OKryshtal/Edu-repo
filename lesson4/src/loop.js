@@ -24,16 +24,16 @@ console.log('--------------------');
 console.log(arr.indexOf('9'), arr.indexOf(15), arr.includes(1));
 
 console.log('--------------------');
-let Iterator = 0;
-while (Iterator < 10) {
-    if (Iterator === 2) {
-        Iterator++;
+let iterator = 0;
+while (iterator < 10) {
+    if (iterator === 2) {
+        iterator++;
         continue;
-    } else if (Iterator === 7) {
+    } else if (iterator === 7) {
         break;
     }
-    console.log(Iterator);
-    Iterator++;
+    console.log(iterator);
+    iterator++;
 }
 
 console.log('--------------------');
